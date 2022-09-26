@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+body::-webkit-scrollbar{
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: gray;
+  border-radius: 5px;
+}
+
+.content-center {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+h2 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+section {
+  padding: 120px 0;
+}
+.portafolio-container {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 2px;
+}
+.portafolio-container img {
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.portafolio-container:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.portafolio-details {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 9000;
+}
+.portafolio-details a h2,
+.portafolio-details a p {
+  color: #ffffff;
+}
+a:hover {
+  text-decoration: none;
+}
+.bg-dark {
+  background-color: black !important;
+}
+
+#footer {
+  padding: 88px 0;
+  text-align: center;
+  color: #ffffff;
+}
+#footer a {
+  color: #ffffff;
+}
+#footer a:hover {
+  color: #ffffff;
+}
+#footer .list-inline .list-inline-item {
+  padding: 10px 15px;
+}
+p1 {
+  font-size: 35px;
+}
+#carousel-img{
+  margin-bottom: -10rem;
+}
+
+.by{
+  font-family: 'Nabla', cursive;
+}
+
+.content-center h2{
+  font-family: 'Bungee Spice', cursive;
+  font-size: 2rem;
+}
+
+.content-center p{
+  font-size: 1.2rem;
+}
+
+#boton{
+  color: white;
+  background-color: orange;
+  border-color: orange;
+}
+
